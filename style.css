@@ -94,6 +94,8 @@ justify-content: space-between;
     font-size: 45px;
     margin-bottom: 25px;
     font-weight: 700;
+    user-select: none;
+
 }
 .left h1 span{
     color: red;
@@ -104,6 +106,8 @@ justify-content: space-between;
     width: 60%;
     font-size: 18px;
     margin-bottom: 20px;
+    user-select: none;
+
 
 }
 
@@ -118,6 +122,10 @@ justify-content: space-between;
     align-items: center;
     justify-content: center;
     gap: 5px;
+}
+.left button:hover{
+    cursor: pointer;
+    background-color: rgb(29, 27, 27);
 }
 .center{
     /* height: 100%; */
@@ -191,6 +199,7 @@ justify-content: space-between;
     align-items: center;
     color: white;
     gap: 25px;
+    user-select: none;
     
     
 }
@@ -219,6 +228,7 @@ justify-content: space-between;
         min-height: 200vh;
         flex-direction: column;
         padding-top: 50px;
+        user-select: none;
     }
     .center{
         height: 100vh;
